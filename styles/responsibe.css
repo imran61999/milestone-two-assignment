@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+
+    header,
+    main {
+        margin: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .row-two {
+        grid-template-columns: 1fr;
+    }
+
+    .row-three {
+        grid-template-columns: 1fr;
+    }
+    .place-section{
+        flex-direction: column;
+    }
+}
